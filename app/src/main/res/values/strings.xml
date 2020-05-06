@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MoodTracker</string>
+    <string name="mood_bad">:(</string>
+    <string name="mood_good">:)</string>
+    <string name="mood_moderate">:|</string>
+    <string name="stat">Статистика</string>
+</resources>

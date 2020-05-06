@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/statBar"
+        android:text="@string/stat" />
+    <TextView
+        android:id="@+id/badPercent"
+        android:background="#FF0000"
+        style="@style/statBar"
+        android:text="@string/mood_bad" />
+    <TextView
+        android:id="@+id/moderatePercent"
+        style="@style/statBar"
+        android:background="#FFFF00"
+        android:text="@string/mood_moderate" />
+    <TextView
+        android:id="@+id/goodPercent"
+        style="@style/statBar"
+        android:background="#00FF00"
+        android:text="@string/mood_good" />
+
+</LinearLayout>
